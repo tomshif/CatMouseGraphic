@@ -16,6 +16,7 @@
 		F48AD28D233E70DE002502F7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F48AD28B233E70DE002502F7 /* Main.storyboard */; };
 		F48AD299233E70DE002502F7 /* CatMouseGraphicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48AD298233E70DE002502F7 /* CatMouseGraphicTests.swift */; };
 		F48AD2A4233E70DE002502F7 /* CatMouseGraphicUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48AD2A3233E70DE002502F7 /* CatMouseGraphicUITests.swift */; };
+		F48AD2B2233E7628002502F7 /* random.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48AD2B1233E7628002502F7 /* random.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,7 @@
 		F48AD29F233E70DE002502F7 /* CatMouseGraphicUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CatMouseGraphicUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F48AD2A3233E70DE002502F7 /* CatMouseGraphicUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatMouseGraphicUITests.swift; sourceTree = "<group>"; };
 		F48AD2A5233E70DE002502F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F48AD2B1233E7628002502F7 /* random.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = random.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +113,7 @@
 				F48AD28B233E70DE002502F7 /* Main.storyboard */,
 				F48AD28E233E70DE002502F7 /* Info.plist */,
 				F48AD28F233E70DE002502F7 /* CatMouseGraphic.entitlements */,
+				F48AD2B1233E7628002502F7 /* random.swift */,
 			);
 			path = CatMouseGraphic;
 			sourceTree = "<group>";
@@ -265,6 +268,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F48AD2B2233E7628002502F7 /* random.swift in Sources */,
 				F48AD288233E70CB002502F7 /* ViewController.swift in Sources */,
 				F48AD286233E70CB002502F7 /* GameScene.swift in Sources */,
 				F48AD280233E70CA002502F7 /* AppDelegate.swift in Sources */,
