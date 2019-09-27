@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F48AD280233E70CA002502F7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48AD27F233E70CA002502F7 /* AppDelegate.swift */; };
+		F48AD282233E70CB002502F7 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = F48AD281233E70CB002502F7 /* GameScene.sks */; };
+		F48AD284233E70CB002502F7 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = F48AD283233E70CB002502F7 /* Actions.sks */; };
+		F48AD286233E70CB002502F7 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48AD285233E70CB002502F7 /* GameScene.swift */; };
+		F48AD288233E70CB002502F7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48AD287233E70CB002502F7 /* ViewController.swift */; };
+		F48AD28A233E70DE002502F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F48AD289233E70DE002502F7 /* Assets.xcassets */; };
+		F48AD28D233E70DE002502F7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F48AD28B233E70DE002502F7 /* Main.storyboard */; };
+		F48AD299233E70DE002502F7 /* CatMouseGraphicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48AD298233E70DE002502F7 /* CatMouseGraphicTests.swift */; };
+		F48AD2A4233E70DE002502F7 /* CatMouseGraphicUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48AD2A3233E70DE002502F7 /* CatMouseGraphicUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F48AD295233E70DE002502F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F48AD274233E70CA002502F7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F48AD27B233E70CA002502F7;
+			remoteInfo = CatMouseGraphic;
+		};
+		F48AD2A0233E70DE002502F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F48AD274233E70CA002502F7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F48AD27B233E70CA002502F7;
+			remoteInfo = CatMouseGraphic;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F48AD27C233E70CA002502F7 /* CatMouseGraphic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CatMouseGraphic.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F48AD27F233E70CA002502F7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F48AD281233E70CB002502F7 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		F48AD283233E70CB002502F7 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		F48AD285233E70CB002502F7 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		F48AD287233E70CB002502F7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F48AD289233E70DE002502F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F48AD28C233E70DE002502F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F48AD28E233E70DE002502F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F48AD28F233E70DE002502F7 /* CatMouseGraphic.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CatMouseGraphic.entitlements; sourceTree = "<group>"; };
+		F48AD294233E70DE002502F7 /* CatMouseGraphicTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CatMouseGraphicTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F48AD298233E70DE002502F7 /* CatMouseGraphicTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatMouseGraphicTests.swift; sourceTree = "<group>"; };
+		F48AD29A233E70DE002502F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F48AD29F233E70DE002502F7 /* CatMouseGraphicUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CatMouseGraphicUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F48AD2A3233E70DE002502F7 /* CatMouseGraphicUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatMouseGraphicUITests.swift; sourceTree = "<group>"; };
+		F48AD2A5233E70DE002502F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F48AD279233E70CA002502F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F48AD291233E70DE002502F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F48AD29C233E70DE002502F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F48AD273233E70CA002502F7 = {
+			isa = PBXGroup;
+			children = (
+				F48AD27E233E70CA002502F7 /* CatMouseGraphic */,
+				F48AD297233E70DE002502F7 /* CatMouseGraphicTests */,
+				F48AD2A2233E70DE002502F7 /* CatMouseGraphicUITests */,
+				F48AD27D233E70CA002502F7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F48AD27D233E70CA002502F7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F48AD27C233E70CA002502F7 /* CatMouseGraphic.app */,
+				F48AD294233E70DE002502F7 /* CatMouseGraphicTests.xctest */,
+				F48AD29F233E70DE002502F7 /* CatMouseGraphicUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F48AD27E233E70CA002502F7 /* CatMouseGraphic */ = {
+			isa = PBXGroup;
+			children = (
+				F48AD27F233E70CA002502F7 /* AppDelegate.swift */,
+				F48AD281233E70CB002502F7 /* GameScene.sks */,
+				F48AD283233E70CB002502F7 /* Actions.sks */,
+				F48AD285233E70CB002502F7 /* GameScene.swift */,
+				F48AD287233E70CB002502F7 /* ViewController.swift */,
+				F48AD289233E70DE002502F7 /* Assets.xcassets */,
+				F48AD28B233E70DE002502F7 /* Main.storyboard */,
+				F48AD28E233E70DE002502F7 /* Info.plist */,
+				F48AD28F233E70DE002502F7 /* CatMouseGraphic.entitlements */,
+			);
+			path = CatMouseGraphic;
+			sourceTree = "<group>";
+		};
+		F48AD297233E70DE002502F7 /* CatMouseGraphicTests */ = {
+			isa = PBXGroup;
+			children = (
+				F48AD298233E70DE002502F7 /* CatMouseGraphicTests.swift */,
+				F48AD29A233E70DE002502F7 /* Info.plist */,
+			);
+			path = CatMouseGraphicTests;
+			sourceTree = "<group>";
+		};
+		F48AD2A2233E70DE002502F7 /* CatMouseGraphicUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F48AD2A3233E70DE002502F7 /* CatMouseGraphicUITests.swift */,
+				F48AD2A5233E70DE002502F7 /* Info.plist */,
+			);
+			path = CatMouseGraphicUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F48AD27B233E70CA002502F7 /* CatMouseGraphic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F48AD2A8233E70DE002502F7 /* Build configuration list for PBXNativeTarget "CatMouseGraphic" */;
+			buildPhases = (
+				F48AD278233E70CA002502F7 /* Sources */,
+				F48AD279233E70CA002502F7 /* Frameworks */,
+				F48AD27A233E70CA002502F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CatMouseGraphic;
+			productName = CatMouseGraphic;
+			productReference = F48AD27C233E70CA002502F7 /* CatMouseGraphic.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F48AD293233E70DE002502F7 /* CatMouseGraphicTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F48AD2AB233E70DE002502F7 /* Build configuration list for PBXNativeTarget "CatMouseGraphicTests" */;
+			buildPhases = (
+				F48AD290233E70DE002502F7 /* Sources */,
+				F48AD291233E70DE002502F7 /* Frameworks */,
+				F48AD292233E70DE002502F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F48AD296233E70DE002502F7 /* PBXTargetDependency */,
+			);
+			name = CatMouseGraphicTests;
+			productName = CatMouseGraphicTests;
+			productReference = F48AD294233E70DE002502F7 /* CatMouseGraphicTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F48AD29E233E70DE002502F7 /* CatMouseGraphicUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F48AD2AE233E70DE002502F7 /* Build configuration list for PBXNativeTarget "CatMouseGraphicUITests" */;
+			buildPhases = (
+				F48AD29B233E70DE002502F7 /* Sources */,
+				F48AD29C233E70DE002502F7 /* Frameworks */,
+				F48AD29D233E70DE002502F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F48AD2A1233E70DE002502F7 /* PBXTargetDependency */,
+			);
+			name = CatMouseGraphicUITests;
+			productName = CatMouseGraphicUITests;
+			productReference = F48AD29F233E70DE002502F7 /* CatMouseGraphicUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F48AD274233E70CA002502F7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = "Tom Shiflet";
+				TargetAttributes = {
+					F48AD27B233E70CA002502F7 = {
+						CreatedOnToolsVersion = 11.0;
+					};
+					F48AD293233E70DE002502F7 = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = F48AD27B233E70CA002502F7;
+					};
+					F48AD29E233E70DE002502F7 = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = F48AD27B233E70CA002502F7;
+					};
+				};
+			};
+			buildConfigurationList = F48AD277233E70CA002502F7 /* Build configuration list for PBXProject "CatMouseGraphic" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F48AD273233E70CA002502F7;
+			productRefGroup = F48AD27D233E70CA002502F7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F48AD27B233E70CA002502F7 /* CatMouseGraphic */,
+				F48AD293233E70DE002502F7 /* CatMouseGraphicTests */,
+				F48AD29E233E70DE002502F7 /* CatMouseGraphicUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F48AD27A233E70CA002502F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F48AD282233E70CB002502F7 /* GameScene.sks in Resources */,
+				F48AD28A233E70DE002502F7 /* Assets.xcassets in Resources */,
+				F48AD284233E70CB002502F7 /* Actions.sks in Resources */,
+				F48AD28D233E70DE002502F7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F48AD292233E70DE002502F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F48AD29D233E70DE002502F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F48AD278233E70CA002502F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F48AD288233E70CB002502F7 /* ViewController.swift in Sources */,
+				F48AD286233E70CB002502F7 /* GameScene.swift in Sources */,
+				F48AD280233E70CA002502F7 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F48AD290233E70DE002502F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F48AD299233E70DE002502F7 /* CatMouseGraphicTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F48AD29B233E70DE002502F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F48AD2A4233E70DE002502F7 /* CatMouseGraphicUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F48AD296233E70DE002502F7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F48AD27B233E70CA002502F7 /* CatMouseGraphic */;
+			targetProxy = F48AD295233E70DE002502F7 /* PBXContainerItemProxy */;
+		};
+		F48AD2A1233E70DE002502F7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F48AD27B233E70CA002502F7 /* CatMouseGraphic */;
+			targetProxy = F48AD2A0233E70DE002502F7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F48AD28B233E70DE002502F7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F48AD28C233E70DE002502F7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F48AD2A6233E70DE002502F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F48AD2A7233E70DE002502F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		F48AD2A9233E70DE002502F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = CatMouseGraphic/CatMouseGraphic.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = CatMouseGraphic/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = TJS.CatMouseGraphic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		F48AD2AA233E70DE002502F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = CatMouseGraphic/CatMouseGraphic.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = CatMouseGraphic/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = TJS.CatMouseGraphic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		F48AD2AC233E70DE002502F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = CatMouseGraphicTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = TJS.CatMouseGraphicTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CatMouseGraphic.app/Contents/MacOS/CatMouseGraphic";
+			};
+			name = Debug;
+		};
+		F48AD2AD233E70DE002502F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = CatMouseGraphicTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = TJS.CatMouseGraphicTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CatMouseGraphic.app/Contents/MacOS/CatMouseGraphic";
+			};
+			name = Release;
+		};
+		F48AD2AF233E70DE002502F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = CatMouseGraphicUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = TJS.CatMouseGraphicUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = CatMouseGraphic;
+			};
+			name = Debug;
+		};
+		F48AD2B0233E70DE002502F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = CatMouseGraphicUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = TJS.CatMouseGraphicUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = CatMouseGraphic;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F48AD277233E70CA002502F7 /* Build configuration list for PBXProject "CatMouseGraphic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F48AD2A6233E70DE002502F7 /* Debug */,
+				F48AD2A7233E70DE002502F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F48AD2A8233E70DE002502F7 /* Build configuration list for PBXNativeTarget "CatMouseGraphic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F48AD2A9233E70DE002502F7 /* Debug */,
+				F48AD2AA233E70DE002502F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F48AD2AB233E70DE002502F7 /* Build configuration list for PBXNativeTarget "CatMouseGraphicTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F48AD2AC233E70DE002502F7 /* Debug */,
+				F48AD2AD233E70DE002502F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F48AD2AE233E70DE002502F7 /* Build configuration list for PBXNativeTarget "CatMouseGraphicUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F48AD2AF233E70DE002502F7 /* Debug */,
+				F48AD2B0233E70DE002502F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F48AD274233E70CA002502F7 /* Project object */;
+}
